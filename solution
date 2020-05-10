@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+bool isPalindrome (string text)
+{
+	string text2 = "";
+	int i = text.length();
+	while (i-->0)
+	{
+		text2 += text[i];
+	}
+	return (text == text2);
+}
